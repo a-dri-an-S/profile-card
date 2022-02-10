@@ -5,8 +5,8 @@ import backgroundImg from "../assets/bg-pattern-card.svg"
 
 const Card = () => {
     return (
-        <section>
-            <img src={backgroundImg} alt="blue-bg"/>
+        <section className="card">
+            <img className="card-bg-img" src={backgroundImg} alt="blue-bg"/>
             <User />
             <UserMetrics />
         </section>
